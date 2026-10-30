@@ -1,9 +1,9 @@
 ---
-title: TXLens — Terms of Service & Privacy Policy
+title: TXLens — Privacy Policy
 layout: default
 ---
 
-# TXLens: Terms of Service & Privacy Policy
+# TXLens: Privacy Policy
 
 Effective Date: October 30, 2026
 
