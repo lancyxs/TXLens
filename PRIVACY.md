@@ -1,5 +1,6 @@
 ---
 title: TXLens — Privacy Policy
+layout: default
 ---
 
 TXLens: Terms of Service & Privacy Policy
