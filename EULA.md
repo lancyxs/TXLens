@@ -1,3 +1,7 @@
+---
+title: TXLens — End User License Agreement (EULA)
+---
+
 END USER LICENSE AGREEMENT (EULA)
 Last Updated: October 30, 2026
 
