@@ -3,7 +3,7 @@ title: TXLens — Privacy Policy
 layout: default
 ---
 
-# TXLens: Privacy Policy
+# Privacy Policy
 
 Effective Date: October 30, 2026
 
