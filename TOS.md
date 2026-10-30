@@ -1,3 +1,7 @@
+---
+title: TXLens — Terms of Service (TOS)
+---
+
 Terms of Service for TXLens
 Last Updated: October 30, 2026
 
