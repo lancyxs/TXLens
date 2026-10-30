@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "TXLens",
+    "slug": "txlens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "txlens",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#faf8ef"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.txlens.solana"
+    },
+    "android": {
+      "package": "com.txlens.solana",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundColor": "#191D36",
+        "monochrome": "./assets/images/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "INTERNET",
+        "WAKE_LOCK"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "658ee0da-daf6-421c-8b7a-aad8cacf2ecd"
+      }
+    }
+  }
+}
