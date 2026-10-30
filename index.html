@@ -1,2 +1,138 @@
-TXLens DEV
-lancyxs@foxmail.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TXLens | Official Portal</title>
+    <style>
+        :root {
+            --bg-deep-navy: #202038;
+            --card-cream: #FAF8EF;
+            --btn-bg: #F2EAE1;
+            --accent: #8F7A66;
+            --text-color: #776E65;
+            --sol-purple: #9945FF;
+            --sol-teal: #14F195;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-deep-navy);
+            background-image: radial-gradient(circle at 50% 50%, rgba(153, 69, 255, 0.08) 0%, transparent 55%);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 85%;
+            background: var(--card-cream);
+            padding: 50px 40px;
+            border-radius: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+            text-align: center;
+        }
+
+        .app-icon {
+            width: 76px;
+            height: 76px;
+            margin: 0 auto 15px;
+            display: block;
+        }
+
+        h1 {
+            color: var(--bg-deep-navy);
+            font-weight: 400;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        h1 .lens-accent {
+            background: linear-gradient(135deg, var(--sol-purple), var(--sol-teal));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline { font-size: 0.85em; opacity: 0.6; margin-bottom: 12px; }
+
+        .feature-row {
+            font-size: 0.75em;
+            opacity: 0.55;
+            margin-bottom: 40px;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 18px 10px;
+            background: var(--btn-bg);
+            border: 1px solid rgba(143, 122, 102, 0.2);
+            border-radius: 20px;
+            text-decoration: none;
+            color: var(--accent);
+            font-size: 0.85em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: var(--accent);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .footer { margin-top: 40px; font-size: 0.7em; color: #999; }
+        .footer a { color: #999; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <svg class="app-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TXLens logo">
+            <defs>
+                <linearGradient id="solGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#9945FF"/>
+                    <stop offset="100%" stop-color="#14F195"/>
+                </linearGradient>
+                <clipPath id="lensClip">
+                    <circle cx="40" cy="42" r="23.5"/>
+                </clipPath>
+            </defs>
+            <g clip-path="url(#lensClip)">
+                <rect x="22" y="29" width="36" height="6.5" rx="3.25" fill="url(#solGradient)" transform="rotate(-8 40 32)"/>
+                <rect x="22" y="42" width="36" height="6.5" rx="3.25" fill="url(#solGradient)" transform="rotate(8 40 45)"/>
+                <rect x="22" y="55" width="36" height="6.5" rx="3.25" fill="url(#solGradient)" transform="rotate(-8 40 58)"/>
+            </g>
+            <circle cx="40" cy="42" r="27" fill="none" stroke="#202038" stroke-width="7"/>
+            <line x1="60" y1="62" x2="79" y2="81" stroke="#202038" stroke-width="10" stroke-linecap="round"/>
+        </svg>
+
+        <h1>TX<span class="lens-accent">Lens</span></h1>
+        <p class="tagline">Explore On-Chain. Store Nothing.</p>
+        <p class="feature-row">Read-Only Solana Explorer &middot; 8 Languages &middot; Non-Custodial</p>
+
+        <div class="nav-grid">
+            <a href="LEGAL" class="btn">Legal Declaration (LEGAL)</a>
+            <a href="TOS" class="btn">Terms of Service (TOS)</a>
+            <a href="PRIVACY" class="btn">Privacy Policy (PRIVACY)</a>
+            <a href="EULA" class="btn">User License (EULA)</a>
+        </div>
+
+        <div class="footer">
+            <p>TXLens &mdash; Read-Only Solana Blockchain Explorer &copy; 2026</p>
+            <p>Contact: <a href="mailto:your-contact@example.com">lancyxs@foxmail.com/a></p>
+        </div>
+    </div>
+
+</body>
+</html>
