@@ -1,3 +1,7 @@
+---
+title: TXLens — Legal Compliance & Ownership Declaration
+---
+
 Legal Compliance & Ownership Declaration (TXLens)
 Last Updated: October 30, 2026
 
