@@ -3,7 +3,7 @@ title: TXLens — Terms of Service
 layout: default
 ---
 
-# Terms of Service for TXLens
+# Terms of Service
 
 Last Updated: October 30, 2026
 
