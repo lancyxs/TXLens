@@ -1,5 +1,6 @@
 ---
 title: TXLens — Terms of Service (TOS)
+layout: default
 ---
 
 Terms of Service for TXLens
