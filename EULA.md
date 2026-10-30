@@ -1,5 +1,6 @@
 ---
 title: TXLens — EULA
+layout: default
 ---
 
 END USER LICENSE AGREEMENT (EULA)
