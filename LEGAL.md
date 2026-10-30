@@ -3,7 +3,7 @@ title: TXLens — LEGAL
 layout: default
 ---
 
-# Legal Compliance & Ownership Declaration (TXLens)
+# Legal Compliance & Ownership Declaration
 
 Last Updated: October 30, 2026
 
