@@ -1,5 +1,6 @@
 ---
 title: TXLens — LEGAL
+layout: default
 ---
 
 Legal Compliance & Ownership Declaration
